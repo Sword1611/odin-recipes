@@ -1,2 +1,5 @@
 # odin-recipes
-Project: Recipes. Foundations Course
+Project: Recipes. 
+Foundations Course.
+
+Applying my learnings from the recent Odin lessons!
