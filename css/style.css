@@ -14,8 +14,17 @@ html {
 }
 
 .title {
+  position: sticky;
+  top: 0;
   text-align: center;
   background-color: rgb(91, 91, 250);
-  font-family: "Times New Roman", Times, serif;
+  font-size: 80px;
 }
 
+.home{
+    font-size: 40px;
+}
+
+.image-container{
+    
+}
