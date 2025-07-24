@@ -1,0 +1,21 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+}
+
+.body {
+  font-family: "Times New Roman", serif;
+}
+
+.title {
+  text-align: center;
+  background-color: rgb(91, 91, 250);
+  font-family: "Times New Roman", Times, serif;
+}
+
