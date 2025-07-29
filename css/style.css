@@ -21,10 +21,42 @@ html {
   font-size: 80px;
 }
 
-.home{
-    font-size: 40px;
+.recipe-selection {
+  display: flex;
+  justify-content: center;
+  background: rgb(250, 250, 91);
+  margin: 50px;
+  padding: 50px;
 }
 
-.image-container{
-    
+.recipe-card {
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 0px 10px 0px;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  transition: transform 0.2s; /*hover*/
+}
+
+.recipe-card:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.selection-image {
+  width: 100%; /* Make image responsive */
+  height: 18vh; /* Maintain aspect ratio using the vh viewport height */
+  border-radius: 5px; /* Rounded corners for the image */
+}
+
+.recipe-card h2 {
+  font-size: 1.5em; /* Double size the base font size */
+  margin: 18px 18px;
+  color: black;
+}
+
+.recipe-card a{
+  text-decoration: none; /* To remove the link underline */
 }
