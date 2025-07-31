@@ -9,6 +9,8 @@ html {
   margin: 0;
 }
 
+
+
 .body {
   font-family: "Times New Roman", serif;
 }
@@ -17,7 +19,7 @@ html {
   position: sticky;
   top: 0;
   text-align: center;
-  background-color: rgb(91, 91, 250);
+  /* background-color: rgb(91, 91, 250); */
   font-size: 80px;
 }
 
@@ -25,7 +27,7 @@ html {
   display: flex;
   justify-content: center;
   background: rgb(250, 250, 91);
-  margin: 50px;
+  margin: 10px 250px 10px;
   padding: 50px;
 }
 
