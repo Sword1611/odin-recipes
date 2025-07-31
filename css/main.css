@@ -14,10 +14,8 @@ html {
 }
 
 .title {
-  position: sticky;
-  top: 0;
   text-align: center;
-  /* background-color: rgb(91, 91, 250); */
+  margin: 200px 250px 5px;
   font-size: 80px;
 }
 
@@ -25,7 +23,7 @@ html {
   display: flex;
   justify-content: center;
   background: rgb(250, 250, 91);
-  margin: 10px 250px 10px;
+  margin: 0px 250px 200px;
   padding: 50px;
 }
 
@@ -36,9 +34,13 @@ html {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   margin: 0px 10px 0px;
   padding: 20px;
-  width: 200px;
+  width: 100%;
   text-align: center;
   transition: transform 0.2s; /*hover*/
+}
+
+.recipe-card a:hover{
+  color: red;
 }
 
 .recipe-card:hover {
@@ -54,9 +56,9 @@ html {
 .recipe-card h2 {
   font-size: 1.5em; /* Double size the base font size */
   margin: 18px 18px;
-  color: black;
 }
 
 .recipe-card a {
   text-decoration: none; /* To remove the link underline */
+  color: black;
 }
