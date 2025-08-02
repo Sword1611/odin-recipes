@@ -20,7 +20,7 @@ html {
   font-size: 80px;
 }
 
-.recipe-container {
+.card-section {
   display: flex;
   justify-content: center;
   background: #b2e0b2;
@@ -28,7 +28,7 @@ html {
   padding: 50px;
 }
 
-.recipe-card {
+.card {
   background: #e3f4ff;
   border: 1px solid #dddddd;
   border-radius: 5px;
@@ -40,11 +40,11 @@ html {
   transition: transform 0.2s; /*hover*/
 }
 
-.recipe-card a:hover {
+.card a:hover {
   color: rgb(118, 120, 236);
 }
 
-.recipe-card:hover {
+.card:hover {
   transform: scale(1.05); /* Slightly enlarge on hover */
 }
 
